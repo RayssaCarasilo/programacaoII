@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+
+body {
+    font-family: 'Smooch Sans';
+    background-color: #222427; 
+    margin: 0;
+    padding: 20px;
+    color: #ebe3e3;
+    line-height: 1.6; 
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #222427;
+    padding: 20px;
+    border-radius: 12px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+h1, h2 {
+    text-align: center;
+    color: #937bd6; 
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.input-conv, .input-comp {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #d7ceda;
+    border-radius: 6px;
+    background-color: #222427;
+    color: #d7ceda;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #844fca;
+    box-shadow: 0 0 100px #5718aa(0, 123, 255, 0.5);
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #222427;
+    color: #b18fdf;
+    border: 2px solid #9a76c9;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #9a76c9;
+    color: #222427
+}
+
+.result {
+    padding: 15px;
+    background-color: #222427;
+    border: 1px solid #181818;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    color: #eceded;
+    font-size: 20px;
+}
+
+.error {
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
